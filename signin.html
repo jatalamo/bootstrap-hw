@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In Form</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+ <!--<script src="//code.jquery.com/jquery-1.10.2.min.js"></script> -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="signin-body">
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   <div class="navbar-header">
+    <a class="navbar-brand" href="#">Jill's Homework</a>
+   </div>
+   <div>
+    <ul class="nav navbar-nav navbar-right">
+    	<li> <a href="signup.html">Sign Up</a></li>
+    	<li class="active"><a href="#">Sign In</a></li>
+    </ul>
+
+  </div>
+ </nav> 
+
+  <div class="container">
+  <div class="row">
+     <div class="col-md-4 col-lg-4">
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <h6> Not a member? Please<a href="signup.html" > sign up</a></h6>
+      </form>
+
+    </div> <!-- /container -->
+
+</body>
+</html>

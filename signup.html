@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-Up Form</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+ <!--<script src="//code.jquery.com/jquery-1.10.2.min.js"></script> -->
+
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="signup-body">
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   <div class="navbar-header">
+    <a class="navbar-brand" href="#">Jill's Homework</a>
+   </div>
+    <div>
+    <ul class="nav navbar-nav navbar-right">
+    	<li class="active"> <a href="#">Sign Up</a></li>
+    	<li><a href="signin.html">Sign In</a></li>
+    </ul>
+  </div>
+ </nav> 
+   <div class="container">
+    <div class="row">
+     <div class="col-md-4 col-lg-4">
+      <h1>Please Sign Up</h1>
+      <h4>This Allows You Full Access!</h4>
+      <h6> Already a member? Please<a href="signin.html" > sign in</a></h6>
+     </div>
+    </div>
+
+    <form action="#" method="post">
+     <div class="row">
+      <div class="col-md-4 col-lg-4">
+       <div class="form-group">
+       <label for="inputName">Name </label>
+       <input type="text" class="form-control" id="inputName" placeholder="Enter Your Name">
+      </div>    
+     </div>
+    </div>
+    	
+    <div class="row">
+      <div class="col-md-4 col-lg-4">
+       <div class="form-group">
+       <label for="inputEmail">Email Address</label>
+       <input type="email" class="form-control" id="inputEmail" placeholder="Enter Your Email Address">
+       </div>
+      </div> 
+     </div>
+
+    <div class="row">
+      <div class="col-md-3 col-lg-3">
+       <div class="form-group">
+       <label for="inputPassword">Password </label>
+       <input type="password" class="form-control" id="inputPassword">
+       </div>
+      </div>    
+     </div>
+
+    <div class="row">
+      <div class="col-md-3 col-lg-3">
+       <div class="form-group">
+       <label for="inputRepeatPassword">Repeat Password</label>
+       <input type="password" class="form-control" id="inputRepeatPassword">
+       </div>
+      </div>    
+     </div>
+
+       <p> <button type="submit" class="btn btn-primary"> Submit</button></p>
+
+    </form>
+
+  </div>
+</body>
+</html>
